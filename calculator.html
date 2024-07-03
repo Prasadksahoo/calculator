@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+    <h1>CALCULATOR</h1>
+    <form action="" name="project">
+        
+    <input type="text" class="calc" name="calc"><br>
+    <input type="button" class="clc" value="(" onclick="project.calc.value +='('">
+    <input type="button" class="clc" value=")" onclick="project.calc.value +=')'">
+    <input type="button" class="clc" value="DEL" onclick="project.calc.value =project.calc.value.slice(0,-1)">
+    <input type="button" class="clc" value="AC" onclick="project.calc.value =''"><br>
+
+    <input type="button" class="clc" value="1" onclick="project.calc.value +='1'">
+    <input type="button" class="clc" value="2" onclick="project.calc.value +='2'">
+    <input type="button" class="clc" value="3" onclick="project.calc.value +='3'">
+    <input type="button" class="clc" value="+" onclick="project.calc.value +='+'"><br>
+
+    <input type="button" class="clc" value="4" onclick="project.calc.value +='4'">
+    <input type="button" class="clc" value="5"  onclick="project.calc.value +='5'">
+    <input type="button" class="clc" value="6" onclick="project.calc.value +='6'">
+    <input type="button" class="clc" value="-" onclick="project.calc.value +='-'"><br>
+
+    <input type="button" class="clc" value="7" onclick="project.calc.value +='7'">
+    <input type="button" class="clc" value="8" onclick="project.calc.value +='8'">
+    <input type="button" class="clc" value="9" onclick="project.calc.value +='9'">
+    <input type="button" class="clc" value="*" onclick="project.calc.value +='*'"><br>
+
+    <input type="button" class="clc" value="." onclick="project.calc.value +='.'">
+    <input type="button" class="clc" value="0" onclick="project.calc.value +='0'">
+    <input type="button" class="clc" value="/" onclick="project.calc.value +='/'">
+    <input type="button" class="equal" value="=" onclick="project.calc.value =eval(project.calc.value)">
+    
+</form>
+</div>
+
+    
+</body>
+</html>
